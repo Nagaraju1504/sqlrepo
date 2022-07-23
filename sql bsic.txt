@@ -1,0 +1,79 @@
+DDL--create, Alter,Drop , Turncate,rename
+DML --- Insert, Delate, Update
+DQL OR DRL ---select
+TCL --- Commit, Rollback, 
+DCL----Grant,Revoke,comment
+
+Closers-----where, order by,  group by,  like
+Constrains-----pkid , fkid,  not null ,Unique
+
+4. What is a Database?
+
+Database is nothing but an organized form of data for easy access, storing, 
+retrieval and managing of data. This is also known as structured form of data which 
+can be accessed in many ways.
+
+3. What is SQL?
+
+SQL stands for Structured Query Language, and it is used to communicate with the
+ Database. This is a standard language used to perform tasks such as retrieval, 
+updation, insertion and deletion of data from a database.
+----------------------------------
+6.What is a primary key?
+A primary key is a combination of fields which uniquely specify a row. 
+This is a special kind of unique key, and it has implicit NOT NULL constraint. 
+It means, Primary key values cannot be NULL.
+---------------------------------
+7. What is a unique key?
+A Unique key constraint uniquely identified each record in the database. 
+This provides uniqueness for the column or set of columns.
+Primary key constraint has automatic unique constraint defined on it. But not,
+ in the case of Unique Key.
+---------------------------
+8. What is a foreign key?
+A foreign key is one table which can be related to the primary key of another table.
+ Relationship needs to be created between two tables by referencing foreign key with 
+the primary key of another table.
+----------------------------
+9. What is a join?
+This is a keyword used to query data from more tables based on the relationship 
+between the fields of the tables. Keys play a major role when JOINS are used.
+
+----------------------------------
+10. What are the types of join and explain each?
+
+There are various types of join which can be used to retrieve data and it depends on 
+the
+ relationship between tables.
+
+• Inner Join.
+-select columns from table1 inner join table2 on table1.columns = table2.coulmns
+
+Right Join.
+select columns from table1 right join table2 on table1.columns = table2.coulmns
+
+Left Join.
+select columns from table1 left join table2 on table1.columns = table2.coulmns
+
+Full Join.
+select columns from table1 full join table2 on table1.columns = table2.coulmns
+
+20. What is subquery?
+
+A subquery is a query within another query. The outer query is called as main query,
+ and inner query is called subquery. SubQuery is always executed first, and the result 
+of subquery is passed on to the main query.
+
+21. What are the types of subquery?
+
+There are two types of subquery Correlated and Non-Correlated.
+
+A correlated subquery cannot be considered as independent query.
+15. What is an Index?
+
+An index is performance tuning method of allowing faster retrieval of records from 
+the table. An index creates an entry for each value and it will be faster to retrieve 
+data.
+
+
+
