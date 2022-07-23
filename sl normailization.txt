@@ -1,0 +1,33 @@
+11. What is normalization?
+
+Normalization is the process of minimizing redundancy and dependency by organizing 
+fields and table of a database. The main aim of Normalization is to add, delete or modify
+ field that can be made in a single table.
+
+12. What is Denormalization?
+
+DeNormalization is a technique used to access the data from higher to lower normal forms of database.
+ It is also process of introducing redundancy into a table by incorporating data from the related tables.
+13. What are all the different normalizations?
+
+The normal forms can be divided into 5 forms, and they are explained below -.
+
+• First Normal Form (1NF):.
+
+This should remove all the duplicate columns from the table. Creation of tables for the related data and identification of unique columns.
+
+• Second Normal Form (2NF):.
+
+Meeting all requirements of the first normal form. Placing the subsets of data in separate tables and Creation of relationships between the tables using primary keys.
+• Third Normal Form (3NF):.
+
+This should meet all requirements of 2NF. Removing the columns which are not dependent on primary key constraints.
+
+• Fourth Normal Form (4NF):.
+
+Meeting all the requirements of third normal form and it should not have multi-valued dependencies.
+
+14. What is a View?
+
+A view is a virtual table which consists of a subset of data contained in a table. Views are not virtually present, and it takes less space to store. View can have data of one or more tables combined, and it is depending on the relationship.
+
